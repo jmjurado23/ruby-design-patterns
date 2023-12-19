@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../invoice'
 require_relative '../csv_invoice_creator'
 require_relative '../plain_text_invoice_creator'

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Class that use a strategy to create an invoice
 class Invoice
   attr_accessor :business, :line_concepts

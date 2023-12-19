@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './observable'
 
 # Class that create a invoice with observers on change line concepts

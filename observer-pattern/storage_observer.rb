@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './observer'
 
 # Observer for storage of elements

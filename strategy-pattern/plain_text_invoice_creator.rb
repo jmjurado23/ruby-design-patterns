@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './invoice_creator'
 
 # Strategy for create plain text invoice

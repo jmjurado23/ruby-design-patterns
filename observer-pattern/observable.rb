@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Module that add obsersable methods to a class
 module Observable
   def observers

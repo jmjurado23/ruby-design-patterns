@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../invoice'
 require_relative '../total_observer'
 require_relative '../storage_observer'
