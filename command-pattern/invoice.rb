@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Class that use the command that is provided
 class Invoice
   attr_reader :status

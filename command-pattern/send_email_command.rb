@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './command'
 
 # Command that changes the status of a invoice
