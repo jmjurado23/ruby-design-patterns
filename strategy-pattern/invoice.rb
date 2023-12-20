@@ -22,7 +22,7 @@ class Invoice
   end
 
   def check_data
-    raise 'Not defined data' if !@business || !@line_concepts
+    raise 'Not implemented data' if !@business || !@line_concepts
   end
 
   def create_invoice
