@@ -9,8 +9,8 @@ class Invoice
     create_invoice
   end
 
-  def add_business(business)
-    @business = business
+  def add_seller(seller)
+    @seller = seller
   end
 
   def add_line_concepts(line_concepts)
@@ -18,7 +18,7 @@ class Invoice
   end
 
   def check_data
-    raise 'Not implemented data' if !@business || !@line_concepts
+    raise 'Not implemented data' if !@seller || !@line_concepts
   end
 
   def create_invoice

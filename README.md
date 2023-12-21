@@ -4,13 +4,15 @@ This repo shows some examples of design patterns in ruby language. This is only 
 
 ## Introduction
 
-I have been thinking about a global scenario in where I could show most part of examples. I have decided to apply examples to business envoironment. But it is easy, we only are going to have invoices with business data and line_concepts. this diagram will show you about it:
+I have been thinking about a global scenario in where I could show most part of examples. I have decided to apply examples to seller envoironment. But it is easy, we only are going to have invoices with seller or remitent info and line_concepts. this diagram will show you about it:
 
 ```mermaid
 graph LR
-Invoice[Invoice] -- has one --> BusinessInfo[BusinessInfo]
+Invoice[Invoice] -- has one --> SellerInfo[SellerInfo]
+Invoice[Invoice] -- has one --> BuyerInfo[BuyerInfo]
 Invoice[Invoice] -- has many --> LineConcept[LineConcept]
-LineConcept[LineConcept] -- has many --> Items[Items]
+LineConcept[LineConcept] -- has one --> NumberItems[NumberItems]
+LineConcept[LineConcept] -- has one --> Concept[Concept]
 ```
 
 ## Contributions

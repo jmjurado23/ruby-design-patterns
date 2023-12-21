@@ -6,10 +6,10 @@ require_relative './observable'
 class Invoice
   include Observable
 
-  attr_accessor :business, :line_concepts
+  attr_accessor :seller, :line_concepts
 
-  def initialize(business, line_concepts)
-    @busines = business
+  def initialize(seller, line_concepts)
+    @busines = seller
     @line_concepts = line_concepts
 
     @line_concepts.each do |line_concept|

@@ -17,9 +17,9 @@ composite_wellcome.add_operation(discount10)
 puts 'Calculate amount for a 20€ item purchase with composite wellcome:'
 puts "#{composite_wellcome.calculate(20)} €"
 
-composite_wellcome_business = CompositeOperation.new('Wellcome Promotion for business')
-composite_wellcome_business.add_operation(tax5)
-composite_wellcome_business.add_operation(discount10)
+composite_wellcome_seller = CompositeOperation.new('Wellcome Promotion for seller')
+composite_wellcome_seller.add_operation(tax5)
+composite_wellcome_seller.add_operation(discount10)
 
-puts 'Calculate amount for a 20€ item purchase with composite wellcome for business:'
-puts "#{composite_wellcome_business.calculate(20)} €"
+puts 'Calculate amount for a 20€ item purchase with composite wellcome for seller:'
+puts "#{composite_wellcome_seller.calculate(20)} €"

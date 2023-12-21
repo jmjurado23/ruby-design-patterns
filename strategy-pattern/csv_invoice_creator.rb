@@ -7,7 +7,7 @@ require 'csv'
 class CsvInvoiceCreator < InvoiceCreator
   def create(invoice)
     ::CSV.generate do |csv|
-      csv << [invoice.business]
+      csv << [invoice.seller]
 
       invoice.line_concepts.each do |line_concept|
         csv << line_concept.split(' ')

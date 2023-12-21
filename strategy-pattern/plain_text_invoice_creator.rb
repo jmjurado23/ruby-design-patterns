@@ -6,7 +6,7 @@ require_relative './invoice_creator'
 class PlainTextInvoiceCreator < InvoiceCreator
   def create(invoice)
     text = ''
-    text += "#{invoice.business}\n"
+    text += "#{invoice.seller}\n"
     invoice.line_concepts.each do |line_concept|
       text += line_concept
     end

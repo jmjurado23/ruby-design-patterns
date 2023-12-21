@@ -7,7 +7,7 @@ class SimpleInvoiceFactory < Factory
     invoices = []
     number.times do
       invoices << Invoice.new(
-        params[:business] || 'Sample company',
+        params[:seller] || 'Sample company',
         params[:line_concepts] || []
       )
     end

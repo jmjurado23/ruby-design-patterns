@@ -1,9 +1,9 @@
 # Component class that have the method that decorators have to implement
 class Invoice
-  attr_reader :business, :line_concepts
+  attr_reader :seller, :line_concepts
 
-  def initialize(business, line_concepts)
-    @business = business
+  def initialize(seller, line_concepts)
+    @seller = seller
     @line_concepts = line_concepts
   end
 

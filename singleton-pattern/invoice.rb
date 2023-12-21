@@ -2,8 +2,8 @@
 class Invoice
   @@total_line_concepts = 0
 
-  def initialize(business, line_concepts)
-    @business = business
+  def initialize(seller, line_concepts)
+    @seller = seller
     @line_concepts = line_concepts
     add_total_amount
   end

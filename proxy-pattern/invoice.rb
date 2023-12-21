@@ -1,7 +1,7 @@
 # Class original that represent an invoice
 class Invoice
-  def initialize(business, line_concepts)
-    @business = business
+  def initialize(seller, line_concepts)
+    @seller = seller
     @line_concepts = line_concepts
   end
 
