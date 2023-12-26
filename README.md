@@ -45,4 +45,4 @@ Juan Manuel Jurado (jmjurado23)
 
 * I highly recommend read this book to understand design patterns in ruby: **Dessing patterns in Ruby (Russ Olsen)**
 
-* Thanks to (https://refactoring.guru)[https://refactoring.guru] for his effort explaining patterns in different languages.
+* Thanks to [https://refactoring.guru](https://refactoring.guru) for his effort explaining patterns in different languages.
