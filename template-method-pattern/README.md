@@ -8,18 +8,18 @@ classDiagram
     AbstractClass <|-- ConcreteClass2
 
     class AbstractClass{
-        +action1()
-        +action2()
+        action1()
+        action2()
     }
 
     class ConcreteClass1{
-        +action1()
-        +action2()
+        action1()
+        action2()
     }
 
     class ConcreteClass2{
-        +action1()
-        +action2()
+        action1()
+        action2()
     }
 ```
 
@@ -31,18 +31,18 @@ classDiagram
     Invoice <|-- PlainTextInvoice
 
     class Invoice{
-        +check_data()
-        +create_invoice()
+        check_data()
+        create_invoice()
     }
 
     class CsvInvoice{
-        +check_data()
-        +create_invoice()
+        check_data()
+        create_invoice()
     }
 
     class PlainTextInvoice{
-        +check_data()
-        +create_invoice()
+        check_data()
+        create_invoice()
     }
 ```
 
