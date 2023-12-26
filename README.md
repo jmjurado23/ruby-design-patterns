@@ -15,6 +15,24 @@ LineConcept[LineConcept] -- has one --> NumberItems[NumberItems]
 LineConcept[LineConcept] -- has one --> Concept[Concept]
 ```
 
+## Content
+
+The patterns that are explained in this repository are:
+
+* [Adapters Pattern](./adapters-pattern)
+* [Builder Pattern](./builder-pattern)
+* [Command Pattern](./command-pattern)
+* [Composite Pattern](./composite-pattern)
+* [Decorator Pattern](./decorator-pattern)
+* [Facade Pattern](./facade-pattern)
+* [Factory Pattern](./factory-pattern)
+* [Iterator Pattern](./iterator-pattern)
+* [Observer Pattern](./observer-pattern)
+* [Proxy Pattern](./proxy-pattern)
+* [Singleton Pattern](./singleton-pattern)
+* [Strategy Pattern](./strategy-pattern)
+* [Template Method Pattern](./template-method-pattern)
+
 ## Contributions
 
 Feel free to add improvements or suggesting changes to the repo making requests.
@@ -25,6 +43,6 @@ Juan Manuel Jurado (jmjurado23)
 
 ## Thanks to
 
-I highly recommend read this book to understand design patterns in ruby:
+* I highly recommend read this book to understand design patterns in ruby: **Dessing patterns in Ruby (Russ Olsen)**
 
-* **Dessing patterns in Ruby (Russ Olsen)**
+* Thanks to (https://refactoring.guru)[https://refactoring.guru] for his effort explaining patterns in different languages.
