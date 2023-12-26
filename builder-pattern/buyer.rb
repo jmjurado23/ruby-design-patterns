@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Buyer for invoices
 class Buyer
   attr_reader :name

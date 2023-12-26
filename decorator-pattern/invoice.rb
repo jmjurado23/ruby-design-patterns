@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Component class that have the method that decorators have to implement
 class Invoice
   attr_reader :seller, :line_concepts

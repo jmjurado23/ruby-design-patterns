@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Singleton class to define invoice
 class Invoice
   @@total_line_concepts = 0

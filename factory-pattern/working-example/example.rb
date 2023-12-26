@@ -18,8 +18,8 @@ end
 puts '-----'
 puts 'Factory that create simple invoices:'
 invoices = SimpleInvoiceFactory.create({
-                                         seller: seller,
-                                         line_concepts: line_concepts
+                                         seller:,
+                                         line_concepts:
                                        }, 2)
 
 invoices.each do |invoice|

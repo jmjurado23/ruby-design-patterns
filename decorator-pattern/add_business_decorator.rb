@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Decorator that add seller to a method
 class AddSellerDecorator < Invoice
   def initialize(invoice)

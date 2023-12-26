@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Class original that represent an invoice
 class Invoice
   def initialize(seller, line_concepts)

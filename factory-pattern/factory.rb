@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Abstract class that define the interface of each factories
 class Factory
   def self.create(_data, _number)

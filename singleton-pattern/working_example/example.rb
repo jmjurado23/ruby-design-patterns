@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../invoice'
 
 seller = 'Computer enterprise'
@@ -8,10 +10,10 @@ puts '-----'
 puts 'Create invoices:'
 
 Invoice.new(seller, line_concepts)
-puts Invoice.show_total_line_concepts.to_s
+puts Invoice.show_total_line_concepts
 
 Invoice.new(seller, line_concepts)
-puts Invoice.show_total_line_concepts.to_s
+puts Invoice.show_total_line_concepts
 
 Invoice.new(seller, line_concepts)
-puts Invoice.show_total_line_concepts.to_s
+puts Invoice.show_total_line_concepts
