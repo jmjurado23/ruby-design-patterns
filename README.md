@@ -11,8 +11,6 @@ graph LR
 Invoice[Invoice] -- has one --> SellerInfo[SellerInfo]
 Invoice[Invoice] -- has one --> BuyerInfo[BuyerInfo]
 Invoice[Invoice] -- has many --> LineConcept[LineConcept]
-LineConcept[LineConcept] -- has one --> NumberItems[NumberItems]
-LineConcept[LineConcept] -- has one --> Concept[Concept]
 ```
 
 ## Content
@@ -43,6 +41,6 @@ Juan Manuel Jurado (jmjurado23)
 
 ## Thanks to
 
-* I highly recommend read this book to understand design patterns in ruby: **Dessing patterns in Ruby (Russ Olsen)**
+* I highly recommend read this book to understand design patterns in ruby: **Desing patterns in Ruby (Russ Olsen)**
 
 * Thanks to [https://refactoring.guru](https://refactoring.guru) for his effort explaining patterns in different languages.
