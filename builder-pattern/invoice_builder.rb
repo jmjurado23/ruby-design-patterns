@@ -13,17 +13,17 @@ class InvoiceBuilder
     @invoice = Invoice.new(nil, nil, nil)
   end
 
-  def add_buyer(name)
-    buyer = Buyer.new(name || 'sample buyer')
+  def add_buyer(name = 'sample buyer')
+    buyer = Buyer.new(name)
     @invoice.buyer = buyer
   end
 
-  def add_seller(name)
-    seller = Seller.new(name || 'sample seller')
+  def add_seller(name = 'sample seller')
+    seller = Seller.new(name)
     @invoice.seller = seller
   end
 
-  def add_line_concept(concept, n_elems = 1)
+  def add_line_concept(concept = 'sample concept', n_elems = 1)
     line_concept = LineConcept.new(concept, n_elems)
     @invoice.line_concepts << line_concept
   end

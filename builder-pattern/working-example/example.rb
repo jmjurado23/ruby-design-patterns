@@ -1,19 +1,18 @@
 # frozen_string_literal: true
 
 require_relative '../invoice_builder'
+require_relative '../director'
 
 puts 'BUILDER PATTERN'
 puts '-----'
 puts 'Create invoice with builder:'
 invoice_builder = InvoiceBuilder.new
+invoice_director = Director.new
+invoice_director.builder = invoice_builder
 
-invoice_builder.add_buyer('Buyer data')
-invoice_builder.add_seller('Seller data')
-invoice_builder.add_line_concept('Computer', 2)
-invoice_builder.add_line_concept('Keyboard')
+puts 'Create invoice with director method empty invoice'
+puts invoice_director.build_empty_invoice
 
-puts 'Invoice data:'
-invoice = invoice_builder.invoice
-puts "Buyer: #{invoice.buyer}"
-puts "Seller: #{invoice.seller}"
-puts "Line concepts: #{invoice.line_concepts}"
+puts '----'
+puts 'Create invoice with director method for demo invoice'
+puts invoice_director.build_demo_invoice
